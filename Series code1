@@ -1,0 +1,7 @@
+import pandas as pd
+def printSquares(l):
+    k=pd.Series(l)
+    k=k**2
+    return k
+l=list(map(int,input().split()))
+print(printSquares(l))
